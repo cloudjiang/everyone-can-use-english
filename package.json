@@ -6,7 +6,7 @@
     "1000h-portal"
   ],
   "scripts": {
-    "start:enjoy": "echo 'Please use `yarn enjoy:start` instead'",
+    "start:enjoy": "node api.js && echo 'Please use `yarn enjoy:start` instead'",
     "enjoy:add": "yarn workspace enjoy add",
     "enjoy:remove": "yarn workspace enjoy remove",
     "enjoy:dev": "yarn workspace enjoy dev",
